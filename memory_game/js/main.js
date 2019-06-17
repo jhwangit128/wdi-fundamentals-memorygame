@@ -69,3 +69,7 @@ function createBoard() {
 };
 
 createBoard();
+// reset button
+function reset() {
+	location.reload();
+};

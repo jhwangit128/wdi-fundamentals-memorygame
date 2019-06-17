@@ -10,14 +10,13 @@ nav {
 	padding: 20px 0;
 }
 
-h1,h2,a,footer {
+h1,h2,a,button,.copyright,.message {
 	font-family: Raleway, sans-serif;
 	text-transform: uppercase;
 }
 
 h1 {
 	font-weight: 400;
-	/*color: #0D2C40;*/
 	letter-spacing: 1px;
 	font-size: 45px;
 	margin: 0;
@@ -71,11 +70,15 @@ img {
 }
 
 footer {
+	text-transform: uppercase;
 	padding: 0 20px;
 	background-color: #0D2C40;
-	color: white;
-	font-size: 14px;
 	letter-spacing: .08em;
+}
+
+.copyright,.message {
+	font-size: 14px;
+	color: #FFFFFF;
 	font-weight: 500;
 }
 
@@ -100,3 +103,20 @@ footer {
 	color: #F15B31;
 	font-weight: 700;
 }
+
+button {
+  	background-color: #F15B31;
+  	border: none;
+  	color: white;
+  	padding: 10px 12px;
+  	margin: 15px auto;
+  	text-align: center;
+ 	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	font-weight: 600;
+  	border-radius: 10px;
+}
+
+
+
